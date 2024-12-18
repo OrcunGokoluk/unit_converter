@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap');
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    font-family: "Inter", serif;
+}
+main{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    height: 100vh;
+}
+.input-area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    background-color:#006494 ;
+    padding:2rem;
+    border-radius:1rem 1rem 0 0;
+}
+.input-area input{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    width: 35%;
+    background-color: #a3e0ff;
+    color:#006494;
+    border-radius: 10px;
+    padding:1rem auto;
+    border:#0084c1 3px solid ;
+}
+.input-area button
+{
+    background-color: #00A6FB;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 10px;
+    border:#003554 1px solid ;
+    font-size: larger;
+    margin-top: 1rem;
+}
+.input-area button:active
+{
+    background-color: #008bd1;
+
+}
+
+.input-area h1
+{
+    color: #a3e0ff;
+    border: none;
+    font-size: 2rem;
+    text-shadow: 0rem 0rem 2px #3030ff;
+}
+
+.result-area
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #051923;
+    width: 500px;
+    border-radius:0 0 1rem 1rem;
+}
+.result-area ul
+{
+    margin: 1.6rem;
+    width: 90%;
+}
+.result-area ul li
+{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#003554 ;
+    color: #00a6fb;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.result-area ul li span
+{
+    color: rgb(154, 154, 154);
+    margin-top: .5rem;
+    font-size: smaller;
+}
